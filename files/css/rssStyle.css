@@ -1,0 +1,177 @@
+body, html {
+
+height:100%;
+
+margin:0;
+
+}
+
+
+
+
+
+
+
+a:-webkit-any-link {
+
+color: #CACACA;
+
+text-decoration: underline;
+
+cursor: auto;
+
+}
+
+
+
+.logo{
+
+height: 100px;
+float: left;
+margin-right: 40px;
+
+}
+
+
+
+.logo>img{
+
+height: 100%;
+
+float: left;
+
+}
+
+
+
+.logo>h1{
+
+line-height: 100px;
+
+padding-left: 140px;
+
+}
+
+
+
+#indicator
+
+{
+
+clear: both;
+
+display: block;
+
+margin: 0 auto;
+
+z-index: 10;
+
+width: 200px;
+
+border-radius:150px;
+
+}
+
+
+
+.content{
+
+min-width: 960px;
+
+width: 960px;
+
+height:100%;
+
+padding:10px;
+
+margin: 0 auto;
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .content{
+      min-width: 640px;
+      width: 640px;
+}
+   }
+
+.rssContent{
+clear: both;
+}
+
+
+.item{
+
+position: relative;
+
+float: left;
+
+margin: 10px;
+
+max-height: 220px;
+
+overflow: hidden;
+
+}
+
+
+
+.item:hover{
+
+box-shadow: 1px 1px 10px #000000;
+
+}
+
+.description{
+font-size:12px;
+display:none;
+}
+
+
+
+.date{
+
+display:none;
+
+}
+
+
+
+.news-pic{
+
+width:300px;
+
+max-height: 300px;
+
+}
+
+
+
+.entry{
+
+color: #f9f9f9;
+
+position: absolute;
+
+bottom: 0;
+
+width: 290px;
+
+min-height: 60px;
+
+font-size: 10px;
+
+padding-left: 10px;
+
+background: rgba(0,0,0,.8);
+
+}
+
+.postTitle{
+
+color: rgb(253, 253, 253) !important;
+
+width: 100%;
+
+}
